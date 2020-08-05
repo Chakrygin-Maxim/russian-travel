@@ -1,0 +1,12 @@
+.cover__background {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: .8;
+    transition: opacity .3s ease;
+}
+
+.cover__background:hover{
+    opacity: .3;
+}
