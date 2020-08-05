@@ -23,5 +23,9 @@
     .place {
         display: block;
         margin: 0;
+        margin-bottom: 48px;
+    }
+    .place:last-of-type {
+        margin-bottom: 0;
     }
 }
