@@ -4,7 +4,6 @@
     display: grid;
     grid-row-gap: 80px;
     grid-template-rows: auto;
-    list-style: none;
     padding: 0;
     /* Расчитываем ширину как два минимальных отсутпа по 48px слева и справа */
     width: calc(100% - 2 * 48px);
