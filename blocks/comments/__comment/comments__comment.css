@@ -1,0 +1,13 @@
+.comments__comment {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 768px) {
+    .comments__comment {
+        justify-content: center;
+        align-items: center;
+    }
+}
