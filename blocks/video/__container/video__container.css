@@ -7,3 +7,24 @@
     padding: 0;
     list-style: none;
 }
+
+@media screen and (max-width:1024px){
+    .video__container{
+        grid-column-gap: 16px;
+        margin: 72px 48px 0;
+    }
+}
+
+@media screen and (max-width:768px){
+    .video__container{
+        margin: 56px 16px 0;
+    }
+}
+
+@media screen and (max-width:425px){
+    .video__container{
+        grid-template-columns: 1fr;
+        grid-row-gap: 8px;
+        margin: 24px 16px 0;
+    }
+}

@@ -15,3 +15,21 @@
     background-color: #000000;
     opacity: .5;
 }
+
+@media screen and (max-width:1024px){
+    .video__item {
+        height: 288px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .video__item {
+        height: 200px;
+    }
+}
+
+@media screen and (max-width:320px){
+    .video__item {
+        height: 192px;
+    }
+}

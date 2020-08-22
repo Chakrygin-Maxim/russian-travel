@@ -31,3 +31,9 @@
         max-width: 382px;
     }
 }
+
+@media screen and (max-width: 320px) {
+    .comments__container {
+        margin: 34px auto 0;
+    }
+}
