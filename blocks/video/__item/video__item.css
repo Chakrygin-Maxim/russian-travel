@@ -1,0 +1,35 @@
+.video__item {
+    display: grid;
+    position: relative;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+}
+
+.video__item::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #000000;
+    opacity: .5;
+}
+
+@media screen and (max-width:1024px){
+    .video__item {
+        height: 288px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .video__item {
+        height: 200px;
+    }
+}
+
+@media screen and (max-width:320px){
+    .video__item {
+        height: 192px;
+    }
+}

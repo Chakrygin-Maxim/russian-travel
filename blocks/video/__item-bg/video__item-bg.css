@@ -1,0 +1,13 @@
+.video__item-bg {
+    width: 100%;
+    border-radius: 5px;
+    grid-column: 1;
+    grid-row: 1;
+    object-fit: fill;
+}
+
+@media screen and (max-width:1024px){
+    .video__item-bg {
+        height: 100%;
+    }
+}
