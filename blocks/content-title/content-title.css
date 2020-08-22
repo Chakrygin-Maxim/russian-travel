@@ -9,6 +9,15 @@
 
 @media screen and (max-width: 768px) {
     .content-title {
+        margin: 95px auto 0;
+        font-size: 42px;
+        line-height: 46px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .content-title {
+        margin: 64px 16px 0;
         font-size: 42px;
         line-height: 46px;
     }
@@ -16,7 +25,6 @@
 
 @media screen and (max-width: 375px) {
     .content-title {
-        margin: 64px 16px 0;
         font-size: 32px;
         line-height: 35px;
     }
